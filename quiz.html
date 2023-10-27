@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>COMPUTER QWIZ</title>
+    <link rel="icon" href="logo.png">
+    
+</head>
+<body>
+
+    <div class="context"><!--dito ka po mag cocode tanga-->
+        <div>
+            <disagree>You Violated/Disagreed to our Policy.<br></disagree>
+        </div>
+        <div>
+            <disagree>close the window or refresh.</disagree>
+        </div> 
+    </div>
+
+
+
+    <div class="area" >
+      <!-- start coding here text only -->
+     
+          
+            <ul class="circles"><!--dito po yung bullet points na square-->
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>    
+                    
+            </ul>
+            
+      
+            
+    
+    
+      </div ><!--ending ng area-->
+      
+      
+      <div class="info_box">
+        <div class="info-title"><spand>QUIZ POLICY</spand></div>
+        <div class="info-list">
+            <div class="info">1. Each question has only <spand>20 seconds</spand> strictly.</div>
+            <div class="info">2. you can't choose any answers after the time lapse</div>
+            <div class="info">3. The Correct answer will be shown but there's no way to change it.</div>
+            <div class="info">4. The total score result will automatically displayes show after finishing the game.</div>
+            <div class="info">5. You'll get points everytime you answered correcly.</div>
+            <div class="info">6. Do not CHEAT!!!! (opening and browsing using other tabs or minimizing using other programs to search).</div><br><br>
+            <div class="info"><spand>THIS WEB TEMPLATE IS FOR MIDTERM REQUIREMENT BY:</spand></div>
+            <div class="info">Jefferson F. Asejo</div>
+            <div class="info">Jayrel Hilario</div>
+            <div class="info">BSCS 2nd Year Students</div>
+        </div>
+        <div class="buttons">
+          <button class="Disagree">Disagree</button>
+          <button class="Agree">Agree</button>
+      </div>
+      </div>
+
+
+
+  <!-- Quiz Box -->
+  <div class="quiz_box">
+      <header>
+          <div class="title">Computer Quiz!</div>
+          <div class="timer">
+              <div class="time_left_txt">Time Left</div>
+              <div class="timer_sec">20</div>
+          </div>
+          <div class="time_line"></div> <!--eto yung line na time na di mo maayos-->
+      </header>
+      <section>
+          <div class="que_text">
+              <!-- dito yung questions from array sa jsscript -->
+          </div>
+          <div class="option_list">
+              <!-- dito yung mga answers mo from array -->
+          </div>
+      </section>
+
+      <!-- footer of Quiz Box  mga button after ng every question-->
+      <footer>
+          <div class="total_que">
+              <!-- DITO YUNG SA JSscript mo para makita anong number na ng question -->
+          </div>
+          <button class="next_btn">Next Question</button>
+      </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+      <div class="icon">
+      </div>
+      <div class="complete_text">You've completed the Quiz!</div>
+      <div class="score_text">
+
+
+      </div>
+      <div class="buttons">
+          <button class="restart">Replay Quiz</button>
+          <button class="quit">Quit Quiz</button>
+      </div>
+  </div>
+
+    <!-- DITO YUNG LOGIC-->
+    <script src="jsscript.js"></script>
+    <!-- IYA DU MGA QUESTION MO NA GINAWA SA ARRAY USING JAVA SCRIPT -->
+    <script src="questions.js"></script>
+    
+</body>
+</html>
